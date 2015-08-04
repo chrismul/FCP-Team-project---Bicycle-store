@@ -5,15 +5,12 @@ public class Supplier {
 	private String address;
 	private String typeOfProduct;
 
-	public Supplier() {
+	public Supplier(String supplierID, String name, String address, String typeOfProduct) {
 		
-		/*
 		this.supplierID = supplierID;
 		this.name = name;
 		this.address = address;
 		this.typeOfProduct = typeOfProduct;
-		*/
-		
 	}
 
 	public String getSupplierID() {
@@ -47,11 +44,12 @@ public class Supplier {
 	public void setTypeOfProduct(String typeOfProduct) {
 		this.typeOfProduct = typeOfProduct;
 	}
-	/*public void display(){
+	public void display(){
 		System.out.println(name+ "'s supplier I.D is "+ supplierID+ ". The companies address is '"+ 
 				address+"' and the product they sell is "+ typeOfProduct+ ".");
-	}*/
+	}
 	
-
 }
+
+
 
